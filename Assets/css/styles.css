@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(0, 0, 0);
+    font-family: "Raleway", sans-serif;
+  }
+
+  .img_header{
+        width: 100%;
+  }
+  .header h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+
+  .text{
+    width: 75%;
+    padding: 5rem 0;
+    margin: auto;
+  }
+  .textu, .text_img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .text_img{
+    width: 35%;
+    margin-left: 5rem;
+  }
+
+  .textu{
+    width: 50%;
+    color: #fff;
+ }
+ .textu p{
+    margin-bottom: 1rem;
+ }
+
+ .icons {
+    background: #1e1a13;
+    padding: 5rem;
+  } 
+  .icons .titulo {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }  
+  .icon-box {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    color: #fff;
+  } 
+  .icon-box i {
+    font-size: 3rem;
+  } 
+  .icon-box p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+  }
+
+  .galeria {
+    padding: 2rem 5rem;
+    margin: 5rem;
+    display: flex;
+    text-align: center center; 
+  }
+  img {
+    display: inline-block;
+     width: 95%;
+    height: 100%; 
+  }
+  footer {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 30px;
+    background: #1e1a13;
+  }
